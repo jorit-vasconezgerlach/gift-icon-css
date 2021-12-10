@@ -25,7 +25,9 @@ body {
     align-items: center;
     justify-content: center;
     transform: translateY(10px);
-    animation: flyaway 2s linear infinite;
+}
+.wholeGift:hover .wholeLid {
+    animation: flyaway 2s linear;;
 }
 .loops {
     display: flex;
@@ -83,8 +85,7 @@ body {
         opacity: 0;
     }
     100% {
-        transform: rotate(0deg);
-        opacity: 1;
+        display: none;
     }
 }
 @keyframes wiggle {
